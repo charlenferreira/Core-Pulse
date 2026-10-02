@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- CPU Chip Base Frame (centered at 54, 54) -->
+    <!-- Pins - Left -->
+    <path android:fillColor="#00E5FF" android:pathData="M27,42 h5 v2 h-5z M27,48 h5 v2 h-5z M27,54 h5 v2 h-5z M27,60 h5 v2 h-5z M27,66 h5 v2 h-5z" />
+    <!-- Pins - Right -->
+    <path android:fillColor="#00E5FF" android:pathData="M76,42 h5 v2 h-5z M76,48 h5 v2 h-5z M76,54 h5 v2 h-5z M76,60 h5 v2 h-5z M76,66 h5 v2 h-5z" />
+    <!-- Pins - Top -->
+    <path android:fillColor="#00E5FF" android:pathData="M42,27 v5 h2 v-5z M48,27 v5 h2 v-5z M54,27 v5 h2 v-5z M60,27 v5 h2 v-5z M66,27 v5 h2 v-5z" />
+    <!-- Pins - Bottom -->
+    <path android:fillColor="#00E5FF" android:pathData="M42,76 v5 h2 v-5z M48,76 v5 h2 v-5z M54,76 v5 h2 v-5z M60,76 v5 h2 v-5z M66,76 v5 h2 v-5z" />
+
+    <!-- Processor Body -->
+    <path
+        android:pathData="M34,36 C34,34 36,32 38,32 L70,32 C72,32 74,34 74,36 L74,72 C74,74 72,76 70,76 L38,76 C36,76 34,74 34,72 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="32"
+                android:endX="74"
+                android:endY="76"
+                android:type="linear">
+                <item android:color="#1E293B" android:offset="0.0" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Chip Border -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000"
+        android:pathData="M34,36 C34,34 36,32 38,32 L70,32 C72,32 74,34 74,36 L74,72 C74,74 72,76 70,76 L38,76 C36,76 34,74 34,72 Z" />
+
+    <!-- Silicon Die Inner Square -->
+    <path
+        android:strokeColor="#0284C7"
+        android:strokeWidth="1.0"
+        android:fillColor="#081020"
+        android:pathData="M41,40 h26 v28 h-26 z" />
+
+    <!-- Core Heartbeat / Pulse Wave -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,54 L36,54 L41,47 L46,62 L51,39 L57,65 L62,51 L67,56 L72,54 L84,54" />
+
+    <!-- Center Pulse Glow Dot -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M51,39 A2,2 0 1,0 51,43 A2,2 0 1,0 51,39" />
+</vector>
